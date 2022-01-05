@@ -1,35 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
-    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  @apply p-0 m-0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 * {
-  box-sizing: border-box;
+  @apply box-border;
 }
 
 main {
-  padding: 5rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  @apply w-full max-w-[1280px] flex flex-col px-8 pt-8;
 }
 
-code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
+.main-container {
+  @apply bg-zinc-900 flex flex-col h-screen items-center;
 }
 
-.container {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+@media only screen and (max-width: 768px) {
+  main {
+    @apply px-4;
+  }
+}
+
+.logo-bg {
+  @apply bg-no-repeat bg-contain;
+}
+
+.jpmorgan {
+  @apply bg-jpmorgan logo-bg w-32 h-6 hover:bg-jpmorgan-color;
+}
+
+.citiustech {
+  @apply bg-citiustech logo-bg w-28 h-6 hover:bg-citiustech-color;
+}
+
+.capgemini {
+  @apply bg-capgemini logo-bg w-28 h-6 hover:bg-capgemini-color;
+}
+.experience-main {
+  @apply flex flex-row gap-10;
+}
+
+.aboutMe-main {
+  @apply text-slate-50 flex flex-col gap-2 items-center text-center;
+}
+
+@media only screen and (max-width: 450px) {
+  .experience-main {
+    @apply flex flex-col gap-2;
+  }
 }
