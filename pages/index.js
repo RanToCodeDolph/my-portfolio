@@ -2,7 +2,7 @@ import Head from "next/head";
 import Header from "@components/Header";
 import Footer from "@components/Footer";
 import Experience from "@components/experience/Experience";
-import AboutMe from "@components/aboutMe/aboutMe";
+import AboutMe from "@components/aboutMe/AboutMe";
 
 export default function Home() {
   return (
