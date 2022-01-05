@@ -32,7 +32,9 @@ export default function Header({ title }) {
           </div>
         </div>
         <div className="text-zinc-300 hover:text-orange-300 cursor-pointer text-sm">
-          <a href="randolphpereira3@gmail.com">randolphpereira3@gmail.com</a>
+          <a href="mailto:randolphpereira3@gmail.com">
+            randolphpereira3@gmail.com
+          </a>
         </div>
       </div>
     </div>
