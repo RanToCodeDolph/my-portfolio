@@ -34,8 +34,8 @@ const Experience = () => {
             <div className={details.cssClassName}>
               {/* <h1 className="underline">{details.companyName}</h1> */}
             </div>
-            <div className="text-xs  text-slate-400">{details.duration}</div>
-            <div className="text-sm text-slate-400">{details.designation}</div>
+            <div className="text-sm text-slate-400">{details.duration}</div>
+            <div className="text-lg text-slate-400">{details.designation}</div>
           </div>
         </div>
       ))}

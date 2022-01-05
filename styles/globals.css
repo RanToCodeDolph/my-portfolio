@@ -50,8 +50,23 @@ main {
   @apply text-slate-50 flex flex-col gap-2 items-center text-center;
 }
 
+.header-main {
+  @apply flex justify-between;
+}
+
+.header-social {
+  @apply flex flex-col  self-end text-sm  font-PatuaOne;
+}
+
 @media only screen and (max-width: 450px) {
   .experience-main {
     @apply flex flex-col gap-2;
+  }
+  .header-main {
+    @apply flex flex-wrap;
+  }
+
+  .main-container {
+    @apply h-full;
   }
 }
