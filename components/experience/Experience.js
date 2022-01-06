@@ -27,7 +27,7 @@ const Experience = () => {
   const [experience, setExperience] = useState(expDetails);
 
   return (
-    <div className="experience-main">
+    <div className="experience-main font-Montserrat">
       {experience.map((details, index) => (
         <div key={"experienceList" + index} className="flex pb-8 ">
           <div className="flex flex-col text-slate-50">

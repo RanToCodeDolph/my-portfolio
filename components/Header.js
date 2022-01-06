@@ -1,7 +1,7 @@
 export default function Header({ title }) {
   return (
     <div className="header-main">
-      <div className="text-4xl font-PatuaOne text-zinc-300 hover:text-purple-300">
+      <div className="text-2xl p-1 font-PatuaOne bg-zinc-300 text-zinc-800 rounded-xl hover:text-zinc-300 hover:bg-zinc-800">
         {title}
       </div>
       <div className="header-social">
