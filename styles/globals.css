@@ -18,7 +18,7 @@ main {
 }
 
 .main-container {
-  @apply bg-zinc-900 flex flex-col h-screen items-center;
+  @apply bg-zinc-900 flex flex-col h-screen items-center selection:bg-yellow-200 selection:text-zinc-800;
 }
 
 @media only screen and (max-width: 768px) {
