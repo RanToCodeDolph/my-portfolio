@@ -18,10 +18,10 @@ export default function Home() {
       </Head>
 
       <main>
-        <div className="flex flex-col gap-10">
+        <div className="main-div">
           <Header title="RP." />
           <AboutMe />
-          <div className="flex flex-row items-center justify-evenly">
+          <div className="flex flex-row items-center justify-center">
             <Experience />
           </div>
           <div className="flex flex-row items-center justify-evenly">

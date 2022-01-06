@@ -58,6 +58,10 @@ main {
   @apply flex flex-col  self-end text-sm  font-PatuaOne;
 }
 
+.main-div {
+  @apply flex flex-col gap-20;
+}
+
 @media only screen and (max-width: 450px) {
   .experience-main {
     @apply flex flex-col gap-2;
@@ -68,5 +72,9 @@ main {
 
   .main-container {
     @apply h-full;
+  }
+
+  .main-div {
+    @apply flex flex-col gap-10;
   }
 }
