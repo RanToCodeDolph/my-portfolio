@@ -1,7 +1,7 @@
 export default function Header({ title }) {
   return (
     <div className="header-main">
-      <div className="text-2xl p-1 font-PatuaOne bg-zinc-300 text-zinc-800 rounded-xl hover:text-zinc-300 hover:bg-zinc-800">
+      <div className="text-2xl p-1 font-PatuaOne bg-zinc-300 text-zinc-800 rounded-xl  hover:bg-yellow-300">
         {title}
       </div>
       <div className="header-social">
@@ -25,13 +25,13 @@ export default function Header({ title }) {
                   "_blank"
                 )
               }
-              className="text-zinc-300 hover:text-yellow-300 cursor-pointer"
+              className="text-zinc-300 hover:text-pink-300 cursor-pointer"
             >
               Instagram
             </div>
           </div>
         </div>
-        <div className="text-zinc-300 hover:text-orange-300 cursor-pointer text-sm">
+        <div className="text-zinc-300 hover:text-green-300 cursor-pointer text-sm">
           <a href="mailto:randolphpereira3@gmail.com">
             randolphpereira3@gmail.com
           </a>
