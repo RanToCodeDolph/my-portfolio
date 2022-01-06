@@ -1,8 +1,10 @@
 export default function Header({ title }) {
   return (
     <div className="header-main">
-      <div className="text-2xl p-1 font-PatuaOne bg-zinc-300 text-zinc-800 rounded-xl  hover:bg-yellow-300">
-        {title}
+      <div className="flex gap-2">
+        <div className="text-2xl p-1 font-PatuaOne bg-zinc-300 text-zinc-800 rounded-xl  hover:bg-yellow-300">
+          {title}
+        </div>
       </div>
       <div className="header-social">
         <div className="flex flex-col">

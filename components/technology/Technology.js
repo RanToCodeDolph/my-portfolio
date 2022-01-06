@@ -2,9 +2,9 @@ import React from "react";
 
 function Technology() {
   return (
-    <div className="flex text-slate-100  flex-wrap gap-10 justify-center font-Montserrat">
+    <div className="flex text-zinc-100  flex-wrap gap-10 justify-center font-Montserrat">
       <div className="flex flex-col">
-        <div className="flex gap-2">
+        <div className="flex gap-2 justify-center">
           <div className="bg-javascript-logo  bg-contain bg-center bg-no-repeat w-8 h-8"></div>
           <div className="bg-typescript-logo  bg-contain bg-center bg-no-repeat w-8 h-8"></div>
         </div>
@@ -13,7 +13,7 @@ function Technology() {
         </div>
       </div>
       <div className="flex flex-col">
-        <div className="flex">
+        <div className="flex justify-center">
           <div className="bg-react-logo  bg-contain bg-center bg-no-repeat w-8 h-8"></div>
           <div className="bg-angular-logo  bg-contain bg-center bg-no-repeat w-8 h-8"></div>
         </div>
@@ -22,7 +22,7 @@ function Technology() {
         </div>
       </div>
       <div className="flex flex-col">
-        <div className="flex">
+        <div className="flex justify-center">
           <div className="bg-html-logo  bg-contain bg-center bg-no-repeat w-8 h-8"></div>
           <div className="bg-css-logo bg-contain bg-center bg-no-repeat w-8 h-8"></div>
         </div>
@@ -31,7 +31,7 @@ function Technology() {
         </div>
       </div>
       <div className="flex flex-col">
-        <div className="flex">
+        <div className="flex justify-center">
           <div className="bg-tailwind-logo bg-contain bg-center bg-no-repeat w-8 h-8"></div>
           <div className="bg-bootstrap-logo  bg-contain bg-center bg-no-repeat w-8 h-8"></div>
           <div className="bg-scss-logo  bg-contain bg-center bg-no-repeat w-8 h-8"></div>
@@ -41,7 +41,7 @@ function Technology() {
         </div>
       </div>
       <div className="flex flex-col">
-        <div className="flex">
+        <div className="flex justify-center">
           <div className="bg-java-logo  bg-contain bg-center bg-no-repeat w-8 h-8"></div>
           <div className="bg-spring-logo  bg-contain bg-center bg-no-repeat w-8 h-8"></div>
         </div>
@@ -50,7 +50,7 @@ function Technology() {
         </div>
       </div>
       <div className="flex flex-col">
-        <div className="flex">
+        <div className="flex justify-center">
           <div className="bg-oracle-logo  bg-contain bg-center bg-no-repeat w-8 h-8"></div>
         </div>
         <div>
@@ -58,7 +58,7 @@ function Technology() {
         </div>
       </div>
       <div className="flex flex-col">
-        <div className="flex gap-2">
+        <div className="flex justify-center gap-2">
           <div className="bg-npm-logo bg-contain bg-center bg-no-repeat w-10 h-8"></div>
           <div className="bg-yarn-logo bg-contain bg-center bg-no-repeat w-8 h-8"></div>
         </div>
@@ -67,7 +67,7 @@ function Technology() {
         </div>
       </div>
       <div className="flex flex-col">
-        <div className="flex gap-2">
+        <div className="flex justify-center gap-2">
           <div className="bg-git-logo bg-contain bg-center bg-no-repeat w-8 h-8"></div>
           <div className="bg-github-logo bg-contain bg-center bg-no-repeat w-8 h-8"></div>
           <div className="bg-bitbucket-logo bg-contain bg-center bg-no-repeat w-8 h-8"></div>
@@ -77,7 +77,7 @@ function Technology() {
         </div>
       </div>
       <div className="flex flex-col">
-        <div className="flex gap-2">
+        <div className="flex justify-center gap-2">
           <div className="bg-qpid-logo bg-contain bg-center bg-no-repeat w-10 h-8"></div>
           <div className="bg-kafka-logo bg-contain bg-center bg-no-repeat w-6 h-8"></div>
         </div>

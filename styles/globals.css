@@ -47,7 +47,7 @@ main {
 }
 
 .aboutMe-main {
-  @apply text-slate-50 flex flex-col gap-2 items-center text-center;
+  @apply text-zinc-100 flex flex-col gap-2 items-center text-center;
 }
 
 .header-main {
