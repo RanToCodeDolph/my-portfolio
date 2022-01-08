@@ -41,7 +41,9 @@ export default function Home() {
               </div>
             </div>
             <div>
-              <div className="flex pt-24 flex-row items-center justify-evenly"></div>
+              <div className="flex pt-36 flex-row items-center justify-evenly">
+                <Project />
+              </div>
             </div>
           </div>
         ) : (
@@ -52,8 +54,9 @@ export default function Home() {
           </div>
         )}
       </main>
-
-      <Footer />
+      <div className="flex pt-10 flex-row items-center justify-evenly">
+        <Footer />
+      </div>
     </div>
   );
 }

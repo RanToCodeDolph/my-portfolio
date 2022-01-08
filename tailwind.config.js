@@ -37,6 +37,8 @@ module.exports = {
         "github-logo": "url('/github.png')",
         "qpid-logo": "url('/qpid.png')",
         "kafka-logo": "url('/kafka.png')",
+        desitarils: "url('/project-desitrails.png')",
+        "desitarils-logo": "url('/logo-desitrails.gif')",
       },
       keyframes: {
         "fade-in": {
