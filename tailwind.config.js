@@ -38,6 +38,25 @@ module.exports = {
         "qpid-logo": "url('/qpid.png')",
         "kafka-logo": "url('/kafka.png')",
       },
+      keyframes: {
+        "fade-in": {
+          "0%": {
+            opacity: "0",
+            transform: "translateY(0px)",
+          },
+          "50%": {
+            opacity: "0.5",
+            transform: "translateY(0)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateY(0)",
+          },
+        },
+      },
+      animation: {
+        "fade-in": "fade-in 3.0s ease-out",
+      },
     },
   },
   plugins: [],

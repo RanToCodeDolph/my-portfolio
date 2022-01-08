@@ -2,7 +2,7 @@ import React from "react";
 
 function Technology() {
   return (
-    <div className="flex text-zinc-100  flex-wrap gap-10 justify-center font-Montserrat">
+    <div className="flex text-zinc-900  flex-wrap gap-10 justify-center font-Montserrat">
       <div className="flex flex-col">
         <div className="flex gap-2 justify-center">
           <div className="bg-javascript-logo  bg-contain bg-center bg-no-repeat w-8 h-8"></div>

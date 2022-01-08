@@ -13,12 +13,8 @@ body {
   @apply box-border;
 }
 
-main {
-  @apply w-full max-w-[1280px] flex flex-col px-8 pt-8;
-}
-
 .main-container {
-  @apply bg-zinc-900 flex flex-col h-screen items-center selection:bg-yellow-200 selection:text-zinc-800;
+  @apply bg-zinc-50 min-h-screen flex flex-col items-center selection:bg-red-300 selection:text-zinc-900;
 }
 
 @media only screen and (max-width: 768px) {
@@ -32,34 +28,38 @@ main {
 }
 
 .jpmorgan {
-  @apply bg-jpmorgan logo-bg w-32 h-6 hover:bg-jpmorgan-color;
+  @apply logo-bg w-32 h-6 bg-jpmorgan-color;
 }
 
 .citiustech {
-  @apply bg-citiustech logo-bg w-28 h-6 hover:bg-citiustech-color;
+  @apply logo-bg w-28 h-6 bg-citiustech-color;
 }
 
 .capgemini {
-  @apply bg-capgemini logo-bg w-28 h-6 hover:bg-capgemini-color;
+  @apply logo-bg w-28 h-6 bg-capgemini-color;
 }
 .experience-main {
   @apply flex flex-row gap-10;
 }
 
 .aboutMe-main {
-  @apply text-zinc-100 flex flex-col gap-2 items-center text-center;
+  @apply text-zinc-900 flex flex-col gap-2 items-center text-center;
 }
 
 .header-main {
-  @apply flex justify-between;
+  @apply flex justify-between mt-4;
 }
 
 .header-social {
-  @apply flex flex-col  self-end text-sm  font-PatuaOne;
+  @apply flex flex-col  self-end text-sm font-Montserrat;
 }
 
 .main-div {
-  @apply flex flex-col gap-20;
+  @apply flex flex-col max-w-[1280px] px-4;
+}
+
+.main-div-loading {
+  @apply flex flex-col justify-center items-center h-[80vh];
 }
 
 @media only screen and (max-width: 450px) {
@@ -74,7 +74,11 @@ main {
     @apply h-full;
   }
 
+  .main-div .inner-div {
+    @apply gap-10;
+  }
+
   .main-div {
-    @apply flex flex-col gap-10;
+    @apply px-1;
   }
 }
