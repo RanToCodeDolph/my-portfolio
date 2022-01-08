@@ -45,6 +45,9 @@ export default function Home() {
                 <Project />
               </div>
             </div>
+            <div className="flex pt-24 pb-4 flex-row items-center justify-evenly">
+              <Footer />
+            </div>
           </div>
         ) : (
           <div className="main-div-loading">
@@ -54,9 +57,6 @@ export default function Home() {
           </div>
         )}
       </main>
-      <div className="flex pt-10 flex-row items-center justify-evenly">
-        <Footer />
-      </div>
     </div>
   );
 }
