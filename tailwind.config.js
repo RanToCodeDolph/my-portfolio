@@ -29,7 +29,7 @@ module.exports = {
         "scss-logo": "url('/scss.png')",
         "tailwind-logo": "url('/tailwind.png')",
         "bootstrap-logo": "url('/bootstrap.png')",
-        "oracle-logo": "url('/oracle.svg')",
+        "oracle-logo": "url('/oracle.png')",
         "npm-logo": "url('/npm.png')",
         "yarn-logo": "url('/yarn.png')",
         "git-logo": "url('/git.png')",
