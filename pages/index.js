@@ -21,8 +21,8 @@ export default function Home() {
       <Head>
         <meta
           name="google-site-verification"
-          content="EBXXYZnkWWjaFVJk4XvOWIuOkNlNDe426V"
-        ></meta>
+          content="EBXXYZnkWWjaFVJk4XvOWIuOkNlNDe426Vt58ZwNxLE"
+        />
         <link
           href="https://fonts.googleapis.com/css2?family=Montserrat&family=Patua+One&display=swap"
           rel="stylesheet"
