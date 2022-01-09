@@ -23,6 +23,10 @@ export default function Home() {
           name="google-site-verification"
           content="EBXXYZnkWWjaFVJk4XvOWIuOkNlNDe426Vt58ZwNxLE"
         />
+        <meta
+          name="description"
+          content="I'm Randolph, A full-stack software developer.This web app showcases all my skills and projects."
+        ></meta>
         <link
           href="https://fonts.googleapis.com/css2?family=Montserrat&family=Patua+One&display=swap"
           rel="stylesheet"
