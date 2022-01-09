@@ -15,7 +15,7 @@ module.exports = {
         jpmorgan: "url('/jpmorgan.png')",
         citiustech: "url('/citiustech.png')",
         capgemini: "url('/capgemini.png')",
-        "jpmorgan-color": "url('/jpmorgan-color.png')",
+        "jpmorgan-color": "url('/jpmorgan.png')",
         "citiustech-color": "url('/citiustech-color.png')",
         "capgemini-color": "url('/capgemini-color.png')",
         "javascript-logo": "url('/js.png')",

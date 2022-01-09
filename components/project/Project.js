@@ -46,7 +46,7 @@ const Project = () => {
               next trekking destination.
             </div>
             <div className="text-sm font-PatuaOne">
-              <div className="flex gap-3 text-red-700">
+              <div className="flex gap-3 text-zinc-700">
                 <div>Angular</div>
                 <div>Tailwind CSS</div>
                 <div>Firebase</div>

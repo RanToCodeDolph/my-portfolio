@@ -28,7 +28,7 @@ body {
 }
 
 .jpmorgan {
-  @apply logo-bg w-32 h-6 bg-jpmorgan-color;
+  @apply logo-bg w-48 h-6 bg-jpmorgan-color;
 }
 
 .citiustech {
