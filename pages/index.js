@@ -19,6 +19,10 @@ export default function Home() {
   return (
     <div className="main-container">
       <Head>
+        <meta
+          name="google-site-verification"
+          content="EBXXYZnkWWjaFVJk4XvOWIuOkNlNDe426V"
+        ></meta>
         <link
           href="https://fonts.googleapis.com/css2?family=Montserrat&family=Patua+One&display=swap"
           rel="stylesheet"
