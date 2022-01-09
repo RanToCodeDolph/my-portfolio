@@ -7,9 +7,8 @@ const Project = () => {
         Some things i have
         <span className="text-red-400"> built</span>.<div></div>
       </div>
-      <div className="flex flex-col">
-        <div className="flex gap-4 flex-wrap justify-center group rounded-2xl bg-red-100 shadow-lg">
-          <div className="bg-cover bg-desitarils w-80 rounded-l-2xl "></div>
+      <div className="project-col">
+        <div className="col-span-2 flex gap-4 flex-wrap justify-center group rounded-2xl bg-red-100">
           <div className="flex flex-col gap-2 m-4  ">
             <div className="flex justify-between">
               <div className="flex gap-1">
@@ -40,8 +39,8 @@ const Project = () => {
             </div>
             <div className=" text-lg max-w-xl ">
               A web app for searching treks and trails in India. View trek
-              difficulty levels, trek routes, nearby treks, trek location on map
-              and more detailed info information about each trek. Search treks
+              difficulty levels, trek routes, nearby treks, trek locations on
+              map and more detailed information about each trek. Search treks
               using a number of existing filter, making it easier to search your
               next trekking destination.
             </div>
@@ -50,6 +49,32 @@ const Project = () => {
                 <div>Angular</div>
                 <div>Tailwind CSS</div>
                 <div>Firebase</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="inner-col flex gap-4 flex-wrap justify-center group rounded-2xl bg-red-100">
+          <div className="flex flex-col gap-2 m-4  ">
+            <div className="flex justify-between">
+              <div className="flex gap-1">
+                <div>
+                  <div className="text-xl p-1  font-PatuaOne bg-red-400 text-zinc-100 rounded-xl">
+                    RP.
+                  </div>
+                </div>
+                <div className="text-2xl text-zinc-600 font-PatuaOne">
+                  Randolph Pereira
+                </div>
+              </div>
+            </div>
+            <div className=" text-lg max-w-xl ">
+              A single page web app with a simple yet eligant design to showcase
+              my skills and experience.
+            </div>
+            <div className="text-sm font-PatuaOne">
+              <div className="flex gap-3 text-zinc-700">
+                <div>Next.js</div>
+                <div>Tailwind CSS</div>
               </div>
             </div>
           </div>

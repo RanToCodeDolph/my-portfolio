@@ -16,10 +16,25 @@ body {
 .main-container {
   @apply bg-zinc-50 min-h-screen flex flex-col items-center selection:bg-red-300 selection:text-zinc-900;
 }
+.project-col {
+  @apply grid grid-cols-3 gap-2;
+}
+
+.project-col .inner-col {
+  @apply col-span-1;
+}
 
 @media only screen and (max-width: 768px) {
   main {
     @apply px-4;
+  }
+
+  .project-col {
+    @apply grid grid-cols-2 gap-4;
+  }
+
+  .project-col .inner-col {
+    @apply col-span-2;
   }
 }
 
