@@ -5,7 +5,7 @@ const Project = () => {
     <div className="flex flex-col items-center font-Montserrat  justify-center gap-8 ">
       <div className=" text-3xl  text-zinc-500 text-center">
         Some things i have
-        <span className="text-red-400"> built</span>.<div></div>
+        <span className="text-red-400 font-PatuaOne"> built</span>.<div></div>
       </div>
       <div className="project-col">
         <div className="col-span-2 flex gap-4 flex-wrap justify-center group rounded-2xl bg-red-100">

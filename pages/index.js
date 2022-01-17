@@ -32,7 +32,7 @@ export default function Home() {
 
         <meta
           name="keywords"
-          content="portfolio examples,portfolio design,
+          content="randolph pereira, randolph, portfolio examples,portfolio design,
 portfolio sample,best portfolio websites,portfolio website examples,
 portfolio design ideas,graphic design portfolio examples,design portfolio examples,
 web design portfolio,portfolio graphic design,portfolio website,portfolio website design,online portfolio examples,

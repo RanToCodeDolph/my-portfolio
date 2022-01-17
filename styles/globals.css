@@ -14,7 +14,7 @@ body {
 }
 
 .main-container {
-  @apply bg-zinc-50 min-h-screen flex flex-col items-center selection:bg-red-300 selection:text-zinc-900;
+  @apply bg-white min-h-screen flex flex-col items-center selection:bg-red-300 selection:text-zinc-900;
 }
 .project-col {
   @apply grid grid-cols-3 gap-2;
@@ -47,7 +47,7 @@ body {
 }
 
 .citiustech {
-  @apply logo-bg w-28 h-6 bg-citiustech-color;
+  @apply logo-bg w-28 h-6 bg-citiustech-color bg-blend-hard-light;
 }
 
 .capgemini {
@@ -66,7 +66,7 @@ body {
 }
 
 .header-social {
-  @apply flex flex-col  self-end text-sm font-Montserrat;
+  @apply flex flex-col  self-end text-sm font-Montserrat font-bold;
 }
 
 .main-div {
