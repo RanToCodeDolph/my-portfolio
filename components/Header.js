@@ -2,9 +2,7 @@ export default function Header({ title }) {
   return (
     <div className="header-main">
       <div className="flex gap-2">
-        <div className="text-2xl p-1 font-PatuaOne bg-red-400 text-zinc-100 rounded-xl">
-          {title}
-        </div>
+        <div className="text-2xl p-1 font-Pacifico  text-zinc-800">{title}</div>
       </div>
       <div className="header-social">
         <div className="flex flex-col">
@@ -16,7 +14,7 @@ export default function Header({ title }) {
                   "_blank"
                 )
               }
-              className="text-zinc-500 hover:text-red-400 cursor-pointer"
+              className="text-zinc-800 hover:text-zinc-500 cursor-pointer font-Rubik"
             >
               LinkedIn
             </div>
@@ -27,13 +25,13 @@ export default function Header({ title }) {
                   "_blank"
                 )
               }
-              className="text-zinc-500 hover:text-red-400 cursor-pointer"
+              className="text-zinc-800 hover:text-zinc-500 cursor-pointer font-Rubik"
             >
               Instagram
             </div>
           </div>
         </div>
-        <div className="text-zinc-500 hover:text-red-400 cursor-pointer text-sm">
+        <div className="text-zinc-800 hover:text-zinc-500 cursor-pointer text-sm font-Rubik">
           <a href="mailto:randolphpereira3@gmail.com">
             randolphpereira3@gmail.com
           </a>

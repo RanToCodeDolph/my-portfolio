@@ -6,16 +6,9 @@ import AboutMe from "@components/aboutMe/AboutMe";
 import Technology from "@components/technology/Technology";
 import { useEffect, useState } from "react";
 import Project from "@components/project/Project";
+import Academia from "@components/academia/Academia";
 
 export default function Home() {
-  const [loaded, setLoaded] = useState(false);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setLoaded(true);
-    }, 3000);
-  });
-
   return (
     <div className="main-container">
       <Head>
@@ -166,12 +159,12 @@ portfolio item description sample for freelancer,awesome portfolio,best graphic 
 ,ux portfolio presentation template"
         />
         <meta name="robots" content="index, follow" />
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="language" content="English" />
         <meta name="author" content="Randolph Pereira" />
 
         <link
-          href="https://fonts.googleapis.com/css2?family=Montserrat&family=Patua+One&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Montserrat&family=Patua+One&family=Pacifico&family=Rubik&display=swap"
           rel="stylesheet"
         />
         <title>Randolph Pereira</title>
@@ -179,14 +172,14 @@ portfolio item description sample for freelancer,awesome portfolio,best graphic 
       </Head>
 
       <main>
-        {loaded ? (
-          <div className="main-div animate-fade-in ">
+        {
+          <div className="main-div animate-fade-in">
             <div className="inner-div flex flex-col gap-20">
               <Header title="RP." />
               <AboutMe />
-              <div className="flex flex-row items-center justify-center">
+              {/* <div className="flex flex-row items-center justify-center">
                 <Experience />
-              </div>
+              </div> */}
               <div className="flex flex-row items-center justify-evenly">
                 <Technology />
               </div>
@@ -196,17 +189,16 @@ portfolio item description sample for freelancer,awesome portfolio,best graphic 
                 <Project />
               </div>
             </div>
+            <div>
+              <div className="flex pt-36 flex-row items-center justify-evenly">
+                <Academia />
+              </div>
+            </div>
             <div className="flex pt-24 pb-4 flex-row items-center justify-evenly">
               <Footer />
             </div>
           </div>
-        ) : (
-          <div className="main-div-loading">
-            <div className="text-3xl p-3 font-PatuaOne bg-red-400 text-zinc-100 rounded-xl w-16 h-16">
-              <div className="animate-pulse ">RP.</div>
-            </div>
-          </div>
-        )}
+        }
       </main>
     </div>
   );

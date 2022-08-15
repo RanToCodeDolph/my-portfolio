@@ -8,6 +8,8 @@ module.exports = {
       fontFamily: {
         PatuaOne: ["'Patua One', cursive"],
         Montserrat: ["'Montserrat', sans-serif"],
+        Pacifico: ["'Pacifico', sans-serif"],
+        Rubik: ["'Rubik', cursive"],
       },
       backgroundImage: {
         linkden: "url('/linkden.png')",

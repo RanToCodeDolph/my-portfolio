@@ -14,7 +14,7 @@ body {
 }
 
 .main-container {
-  @apply bg-white min-h-screen flex flex-col items-center selection:bg-red-300 selection:text-zinc-900;
+  @apply bg-white min-h-screen flex flex-col items-center selection:bg-[#ffe279] selection:text-zinc-900;
 }
 .project-col {
   @apply grid grid-cols-3 gap-2;
@@ -54,11 +54,11 @@ body {
   @apply logo-bg w-28 h-6 bg-capgemini-color;
 }
 .experience-main {
-  @apply flex flex-row gap-10;
+  @apply flex flex-col gap-1;
 }
 
 .aboutMe-main {
-  @apply text-zinc-900 flex flex-col gap-2 items-center text-center;
+  @apply text-zinc-900 flex gap-2 items-center text-center justify-center;
 }
 
 .header-main {
