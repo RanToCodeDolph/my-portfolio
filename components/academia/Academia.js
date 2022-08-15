@@ -40,9 +40,8 @@ const Academia = () => {
             </div>
             <div className=" text-lg max-w-xl font-Rubik ">
               Open source hardware based automated gardening system using
-              low-cost soil moisture sensor , published in 2020 IEEE Global
-              Conference on Artificial Intelligence and Internet of Things
-              (GCAIoT)
+              low-cost soil moisture sensor , published in 2015 International
+              Conference on Technologies for Sustainable Development (ICTSD)
             </div>
             <div className="text-sm font-Rubik">
               <div className="flex flex-col gap-1 text-zinc-700">
